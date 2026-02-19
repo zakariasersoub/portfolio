@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 26px;
+  background-color: #fefce8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.header {
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-container {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-container a {
+  transition: 0.3s;
+}
+
+.menu-container a:hover {
+  color: rgb(175, 201, 156);
+}
+
+#home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  
+/*   background-color: rgb(52, 91, 91);
+  color: white; */
+}
+
+.my-speciality {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.right-hero {
+  flex: 1;
+}
+.left-hero {
+  flex: 1;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-title {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  /* letter-spacing: 1px; */
+}
+
+.hero-content {
+  letter-spacing: 1px;
+}
+
+.my-email {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#contact {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 60px;
+}
+
+.img-contact-github,.img-contact-linkedin {
+  width: 30px;
+  transition: 0.3s ease;
+}
+.img-contact-github:hover,.img-contact-linkedin:hover {
+  transform: scale(1.15);
+}
+.img-contact-instagram {
+  width: 25px;
+  transition: 0.3s ease;
+}
+
+.img-contact-instagram:hover {
+  transform: scale(1.2);
+}
+
+#about {
+  text-align: center;
+  padding: 20px;
+}
+
+.article-about-container,
+.article-work-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.article-about-container article {
+  background-color: white;
+  height: 300px;
+  border-radius: 20px;
+  flex: 1;
+  box-shadow: 0 10px 1px 0.1;
+}
+#work {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#footer {
+  background-color: darkslategrey;
+  color: white;
+  height: 150px;
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+@media (max-width: 600px) {
+  #home {
+  flex-direction: column;
+  }
+  .hero-img {
+    display: none;
+  }
+}
+
+
+
