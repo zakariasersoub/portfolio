@@ -1,13 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   line-height: 26px;
   background-color: #fefce8;
+  
 }
+
+
 
 a {
   text-decoration: none;
@@ -112,6 +116,7 @@ a {
 .img-contact-instagram:hover {
   transform: scale(1.2);
 }
+
 
 #about {
   text-align: center;
