@@ -8,7 +8,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 26px;
   background-color: #fefce8;
-  
+
 }
 
 
@@ -127,15 +127,16 @@ a {
 .article-work-container {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
+  gap: 10px;
 }
 
 .article-about-container article {
   background-color: white;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
   flex: 1;
-  box-shadow: 0 10px 1px 0.1;
+  padding: 10px;
+  /* box-shadow: 0 10px 1px 0.1; */
 }
 #work {
   text-align: center;
