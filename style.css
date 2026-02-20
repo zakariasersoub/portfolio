@@ -123,6 +123,7 @@ a {
   padding: 20px;
 }
 
+
 .article-about-container,
 .article-work-container {
   display: flex;
@@ -130,13 +131,15 @@ a {
   gap: 10px;
 }
 
+
+
 .article-about-container article {
   background-color: white;
   height: 300px;
   border-radius: 10px;
   flex: 1;
   padding: 10px;
-  /* box-shadow: 0 10px 1px 0.1; */
+  box-shadow: 0 10px 1px 0.1;
 }
 #work {
   text-align: center;
